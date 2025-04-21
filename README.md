@@ -1,2 +1,15 @@
 # FrontEnd---Projeto_UniSenai
-Projeto para fim avaliativo da disciplina de FrontEnd.
+  A ideia é fazer uma página principal do site, onde apresente um pouco sobre o objetivo do site.
+Foi utilizado no head as configurações de caracteres onde foi definido UTF-8, foi definido também para o site utilizar sempre oque há de mais atual no navegador e para responsividade definimos que em todo dispositivo que o site for aberto ele vai se adaptar ao disposito. Definimos o título, o ícone da página e a conexão com o código fonte da folha de estilo da página. Foi definido para cada div ou tag um id ou class para que possa ser estilizado de maneira mais fácil e ágil.
+  Na folha de estilos foi zerado a margin e padding que já vem por padrão configurada, o  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seriffoi escolhido pois traz uma leitura chamativa e não cansativa. O display flex é definido nas estilizações para possibilitar o alinhamento e distribuição dos elementos na tela. Alinhamos tudo em coluna e centralizamos o conteúdo do body com justify-content e align-items. A cor dbdbdb do background color foi escolhida para não ficar tão chamativo, mas sim ter um toque suave e agradavel aos olhos possibilitanto uma visualização do conteúdo mais agradavel sem a luz forte do branco e também não perde o destaque do branco aos outros elementos.
+  O company name foi definido acima do da div principal ou o container como definido em uma class para maior destque do nome da empresa e prejudicar o design. Assim como todas as letras, foi definido com a cor preta variando de tons escuros e tons claros. Definido margin-bottom para que haja um espaço entre o container e o company name, centralizado pelo text-align e deixado toda a escrita em maiusculo pelo uppercase
+  No container, definimos o display flex como já explicado acima e para uma opção mais chamativa do conteúdo definimos um efeito 3d com o box-shadow.
+  Na div do texto a esquerda definimos apenas flex 1 para o item crescer e encolher de acordo com o espaço disponível.
+  O paragrafo definimos em um cinza suave, uma margem da parte de baixo da div e colocamos um line height de 1.6 para dar espaço entre as linhas do texto.
+  Na div dos botoes definido pela classe buttons definimos um display flex e um gap de 15px que vai dar espaço entre eles e uma margin top de 20px para não ficar tão próximo do paragrafo.
+  Para todos os botoes existentes chamamos button e definimos a cor de fundo dos botoes como as cores padrões já definidas da página. O cursor pointer foi utilizado para mudar o tipo de ponteiro do mouse ao passar em cima dos botoes. O transition foi utilizado para a cor do fundo do elemento ser suavemente animada ao passar o mouse sobre ele. E arredondamos as bordas dos botoes com border radius.
+  O botton:hover foi utilizado para definir a cor que o botao vai ter ao passar o mouse.
+  button a é paraq estilizarmos a ancora ou o link que colocamos ao clicar nos botoes, juntamente com text-decoratino none para retirar o sublinhado das palavras que vem por padrão ao inserirmos um nome para as ancoras.
+  Na div da imagem definimos flex 1 e text-align center.
+  Para a imagem dentro da foi utilizado uma largura e altura máxima em porcentagem que a imagem pode ocupar e as bordas foram arredondadas com border radius.
+  
