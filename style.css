@@ -1,62 +1,58 @@
-/* Estilo básico do body */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    flex-direction: column; /* Organiza os elementos na direção coluna */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #dbdbdb; /* Cor suave de fundo: cinza claro */
+    background-color: #dbdbdb; 
 }
 
-/* Nome da empresa acima do container */
 #company-name {
     font-size: 3rem;
-    color: #000000; /* Cor escura para o texto */
-    margin-bottom: 20px; /* Espaço entre o nome e o container */
+    color: #000000; 
+    margin-bottom: 20px; 
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase; /* Deixa as letras em maiúsculas */
+    text-transform: uppercase; /
 }
 
-/* Container para centralizar todo o conteúdo */
+
 .container {
     display: flex;
-    justify-content: space-between; /* Alinha o texto à esquerda e a imagem à direita */
-    align-items: center; /* Alinha os elementos ao centro verticalmente */
-    width: 80%; /* A largura do container */
-    max-width: 1100px; /* Limita a largura máxima */
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80%; /
+    max-width: 1100px; 
     margin: 0 auto;
-    background-color: #ffffff; /* Fundo branco para destacar o conteúdo */
-    border-radius: 12px; /* Bordas arredondadas para um visual mais moderno */
-    box-shadow: 0 6px 20px rgba(1, 1, 0.1, 0.4); /* Sombra suave para destacar o container */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(1, 1, 0.1, 0.4); 
     padding: 40px;
 }
 
-/* Seção do texto à esquerda */
+
 .left-text {
     flex: 1;
-    padding-right: 40px; /* Espaço entre o texto e a imagem */
+    padding-right: 40px; 
 }
 
-/* Título e parágrafo */
 #h1 {
     font-size: 2.3rem;
     margin-bottom: 20px;
-    color: #333333; /* Cor do título, cinza escuro */
+    color: #333333;
     font-weight: bold;
 }
 
 #p {
     font-size: 1.1rem;
-    color: #666666; /* Cor do texto do parágrafo, um cinza suave */
+    color: #666666; 
     margin-bottom: 30px;
     line-height: 1.6;
 }
 
-/* Estilo dos botões */
 .buttons {
     display: flex;
     gap: 15px;
@@ -64,18 +60,18 @@ body {
 }
 
 button {
-    background-color: #6c757d; /* Cor do fundo do botão: cinza escuro */
+    background-color: #6c757d; 
     border: none;
     padding: 12px 25px;
     color: white;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
-    border-radius: 8px; /* Bordas arredondadas */
+    border-radius: 8px; 
 }
 
 button:hover {
-    background-color: #495057; /* Cor do botão ao passar o mouse: cinza mais escuro */
+    background-color: #495057; 
 }
 
 button a {
@@ -83,7 +79,6 @@ button a {
     text-decoration: none;
 }
 
-/* Seção da imagem à direita */
 .right-image {
     flex: 1;
     text-align: center;
@@ -92,5 +87,5 @@ button a {
 .right-image img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 8px; /* Bordas arredondadas na imagem para um visual mais suave */
+    border-radius: 8px;
 }
